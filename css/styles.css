@@ -188,7 +188,13 @@ line-height: 2;
 
   
 }
-.adress-link {
+[href*="mailto"]{
+
+   color: rgba(255, 255, 255, 0.6);
+
+}
+[href*="tel"]{
+
    color: rgba(255, 255, 255, 0.6);
 
 }
