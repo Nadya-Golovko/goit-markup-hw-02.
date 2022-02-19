@@ -43,17 +43,16 @@ body {
 .list {
   list-style: none;
 }
-/* Сайт Nav  */
+/* 1 Сайт Nav  */
 
 .site-nav .link {
   color: var(--title-text-color);
   font-family: inherit;
   font-weight: 500;
-  font-size: 15px;
-  
-  line-height: 1.2;
+  font-size: 14px;
+  line-height: ;
 
-  letter-spacing: -0, 015;
+  
 }
 .sitenav .list {
   text-decoration: none;
@@ -76,8 +75,8 @@ body {
   font-size: 15px;
   line-height: 18px;
 }
-.button.primary {
-  color: var(--primery-text-color);
+.button primery {
+  color: white;
   background-color: var(--accent-color);
 }
 /*.button.secondary {
@@ -86,27 +85,42 @@ body {
 }
 /*section*/
 
+/* 2 Hero */
+
 .hero-title {
   color: #fff;
   background-color: #2f303a;
   font-family: Roboto;
-  font-style: normal;
+  
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
 }
-/*section*/
+/* 3 esection*/
 
-.section-title {
-  color: var(--title-text-color);
+.section .title {
+  color:var(--title-text-colo);
   font-family: Roboto;
-  font-style: normal;
+  
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
+  /* 4 esection*/
+
+ .section-title-work,section-title {
+   color: var(--title-text-color);
+   font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+ }
+/* 5 esection*/
+
+
 /*features*/
 
 .feature-list.title {
@@ -118,13 +132,29 @@ body {
 
 .name {
   color: var(--title-text-color);
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
 }
-
+.profesion{
+  
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+}
 /* Текст задание 1 */
 
-.text {
-  color: #757575;
+.section .text {
+
+  color: var(--primery-text-color);
   font-size: 14px;
+  line-height: ;
+  font-weight: normal;
+  
 }
 
 /* Заголовки  */
@@ -144,7 +174,7 @@ body {
   line-height: 24px;
   /* or 171% */
 
-  letter-spacing: 0.03em;
+  
 }
 /* Текст задание  2 портфолио  */
 
