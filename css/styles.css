@@ -33,9 +33,7 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
-
- 
+  line-height: 1,2;
 }
 
 /*список*/
@@ -50,9 +48,7 @@ body {
   font-family: inherit;
   font-weight: 500;
   font-size: 14px;
-  line-height: ;
-
-  
+  line-height: 1,2;
 }
 .sitenav .list {
   text-decoration: none;
@@ -73,7 +69,7 @@ body {
   background-color: var(--accent-color);
   font-weight: 500;
   font-size: 15px;
-  line-height: 18px;
+  line-height: 1,2;
 }
 .button primery {
   color: white;
@@ -94,7 +90,8 @@ body {
   
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1,4;
+  text-align: center;
 }
 /* 3 esection*/
 
@@ -104,18 +101,18 @@ body {
   
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1,2;
 }
   /* 4 esection*/
 
  .section-title-work,section-title {
-   color: var(--title-text-color);
-   font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
+ color: var(--title-text-color);
+ font-family: Roboto;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 36px;
+ line-height: 1,2;
+ text-align: center;
 
  }
 /* 5 esection*/
@@ -131,12 +128,12 @@ text-align: center;
 }
 
 .name {
-  color: var(--title-text-color);
-  font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
+ color: var(--title-text-color);
+ font-family: Roboto;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1,2;
 }
 .profesion{
   
@@ -144,7 +141,7 @@ font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
-line-height: 19px;
+line-height: 1,2;
 }
 /* Текст задание 1 */
 
@@ -152,7 +149,7 @@ line-height: 19px;
 
   color: var(--primery-text-color);
   font-size: 14px;
-  line-height: ;
+  line-height:1,2 ;
   font-weight: normal;
   
 }
@@ -165,22 +162,22 @@ line-height: 19px;
   background-color: #2f303a;
 }
 .adress {
-  color: #ffffff99;
-  list-style: none;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
 
-  
+ color: #FFFFFF;
+
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 2;
 }
+  
+
 /* Текст задание  2 портфолио  */
 
 .portfolio {
   color: #757575;
-  font-size: 16px;
+  font-size: 1,6;
   position: absolute;
 
   font-family: Roboto;
@@ -189,5 +186,9 @@ line-height: 19px;
   line-height: 30px;
   /* identical to box height, or 187% */
 
-  letter-spacing: 0.03em;
+  
+}
+.adress-link {
+   color: rgba(255, 255, 255, 0.6);
+
 }
