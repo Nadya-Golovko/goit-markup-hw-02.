@@ -6,34 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap" rel="stylesheet">
-   
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="./css/styles.css">
+
 </head>
 
-<body class="page">
-    <!--   Шапка профиля логотип -->
-    <header class="">
-        <nav>
-            <a href="/">Webstudio</a>
-            <ul class="site-nav list">
-                <li> <a href="./index.html" class="link">Студия</a> </li>
-                <li> <a href="" class="link">Портфолио</a> </li>
-                <li> <a href="" class="link">Контакты</a> </li>
+<body>
 
+    <!-- Шапка профиля логотип -->
+
+    <header class="header">
+        <nav class="nav">
+            <a href="./index.html" class="logo">
+                <p lang="en"><span class="logo-blue">Web</span>Studio</p>
+            </a>
+
+            <ul class="site-nav">
+                <li> <a href="./index.html" class="site-nav-link-current ">Студия</a> </li>
+                <li> <a href="./portfolio.html" class="site-nav-link ">Портфолио</a> </li>
+                <li> <a href="" class="site-nav-link">Контакты</a> </li>
             </ul>
             <!--   Контакты -->
-            <div>
-                <ul class="auth-nav list">
-                    <li> <a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
 
-                    <li> <a href="tel:+380961111111">+380961111111</a></li>
-                </ul>
-            </div>
+            <ul class="communication">
+                <li> <a class="contact-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li> <a class="contact-tel" href="tel:+380961111111">+380961111111</a></li>
+            </ul>
         </nav>
     </header>
-
-    
 
     <main>  
       <section>
@@ -50,19 +54,19 @@
     
     <li class="team-list">
         <a href=""><img src="./images/imgs.jpg" alt="фото дизайнера " width="270">
-        <h2 class="name"> Технокряк </h2>
+        <h2 class="name-portfolio"> Технокряк </h2>
         <p class="portfolio"> Веб-сайт</p></a>
         
     </li>
     <li class="team-list">
         <a href=""><img src="./images/imga.jpg" alt="фото фронтент" width="270">
-        <h2 class="name"> Постер New Orlean vs Golden Star </h2>
+        <h2 class="name-portfolio"> Постер New Orlean vs Golden Star </h2>
         <p class="portfolio"> Дизайн</p></a>
        
     </li>
     <li class="team-list">
         <a href=""><img src="./images/imgb.jpg" alt="фото маркетолог" width="270">
-        <h2 class="name"> Ресторан Seafood </h2>
+        <h2 class="name-portfolio"> Ресторан Seafood </h2>
         <p class="portfolio"> Приложение</p></a>
         
     </li>
@@ -108,16 +112,20 @@
 
     <!--футер -->
     <footer class="footer">
-        <a href="/">Webstudio</a>
+    
+        <a href="./index.html" class="logo">
+            <p lang="en"><span class="logo-blue">Web</span>
+                <span class="studio">Studio</span>
+            </p>
+        </a>
         <address>
             <ul class="adress">
-    
-                <li >
-                    <a class="adress" href="">г. Киев,
-                        Бульвар Леси Украинки, д. 26,</a></li>
-
-                <li class="adress-link"><a  href="mailto:info@example.com">info@example.com</a></li>
-                <li class="adress-link"><a  href="tel:+380961111111">+380961111111</a></li>
+                <li>
+                    <a href class="adress">г. Киев,
+                        Бульвар Леси Украинки, д. 26,</a>
+                </li>
+                <li><a class="adress-info" href="mailto:info@example.com">info@example.com</a></li>
+                <li><a class="adress-info" href="tel:+380961111111">+380961111111</a></li>
             </ul>
     
         </address>
