@@ -171,7 +171,7 @@ body {
 /*footer*/
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--background-color-accent);
 }
 .adress {
   color: var(--white-color);
@@ -191,15 +191,26 @@ body {
   list-style: none;
   text-decoration: none;
 }
-/* Текст задание  2 портфолио  */
-
+/*portfolio*/
+.name-portfolio {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  text-decoration: none;
+  list-style: none;
+}
 .portfolio {
-  color: #757575;
-  font-size: 1, 6;
-  position: absolute;
-
-  font-family: Roboto;
+  color: var(--primery-text-color);
   font-style: normal;
   font-weight: normal;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 1, 8;
+  text-decoration: none;
+  list-style: none;
+}
+.team-list {
+  text-decoration: none;
+  list-style: none;
 }
