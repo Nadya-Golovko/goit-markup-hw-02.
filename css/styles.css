@@ -27,7 +27,7 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 1, 2;
+  line-height: 1.2;
   text-decoration: none;
 }
 .logo-blue {
@@ -42,7 +42,7 @@ body {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 2;
+  line-height: 1.2;
   list-style: none;
   text-decoration: none;
 }
@@ -56,7 +56,7 @@ body {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 2;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -71,14 +71,14 @@ body {
   color: var(--accent-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 2;
+  line-height: 1.2;
   text-decoration: none;
 }
 .contact-tel {
   color: var(--primery-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 2;
+  line-height: 1.2;
   text-decoration: none;
 }
 /*Кнопка*/
@@ -90,7 +90,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 6;
+  line-height: 1.6;
   text-align: center;
 }
 .button,
@@ -104,7 +104,7 @@ body {
   background-color: var(--background-color-accent);
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 4;
+  line-height: 1.4;
   text-align: center;
 }
 /* Внимание к деталям  пунктуальность планирование совр технологии*/
@@ -115,7 +115,7 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 1, 2;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -123,7 +123,7 @@ body {
   color: var(--primery-text-color);
   font-weight: normal;
   font-size: 14px;
-  line-height: 1, 7;
+  line-height: 1.7;
   letter-spacing: 0.03em;
 }
 /*перечень */
@@ -131,7 +131,7 @@ body {
   color: var(--title-text-color);
   font-weight: bold;
   font-size: 36px;
-  line-height: 1, 16;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   visibility: hidden;
@@ -141,7 +141,7 @@ body {
   color: var(--title-text-color);
   font-weight: bold;
   font-size: 36px;
-  line-height: 1, 16;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -150,7 +150,7 @@ body {
   color: var(--title-text-color);
   font-weight: bold;
   font-size: 36px;
-  line-height: 1, 16;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -159,13 +159,13 @@ body {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 2;
+  line-height: 1.2;
 }
 .profesion {
   color: var(--primery-text-color);
   font-weight: normal;
   font-size: 16px;
-  line-height: 1, 2;
+  line-height: 1.2;
 }
 
 /*footer*/
@@ -186,7 +186,7 @@ body {
   color: var(--primery-text-color);
   font-weight: normal;
   font-size: 14px;
-  line-height: 1, 7;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   list-style: none;
   text-decoration: none;
@@ -206,9 +206,10 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 1, 8;
+  line-height: 1.8;
   text-decoration: none;
   list-style: none;
+  letter-spacing: 0.06em;
 }
 .team-list {
   text-decoration: none;
